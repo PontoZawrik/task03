@@ -1,0 +1,12 @@
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_wrapper a {
+    color: black;
+
+    font-size: 35px;
+    font-weight: bold;
+}
+

@@ -1,0 +1,91 @@
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_wrapper a {
+    color: black;
+
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    width: 700px;
+
+    margin: 50px auto 0px auto;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    background-color: rgb(159,205,205);
+    border-radius: 10px;
+}
+
+.heading {
+    width: 550px;
+    background-color: rgb(219,100,35);
+
+    position: relative;
+    right: 20px;
+
+    margin-bottom: 15px;
+
+    padding: 15px 0px 15px 50px;
+}
+
+.heading_p {
+    text-transform: uppercase;
+    font-weight: bold;
+
+    font-size: 20px;
+    color: white;
+}
+
+.input_div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    margin-left: 30px;
+}
+
+.input_text {
+    color: rgb(77, 123, 139);
+}
+
+.input {
+    width: 370px;
+
+    background-color: rgb(169,210,210);
+    padding: 15px;
+
+    border: none;
+    border-bottom: 1px solid black
+}
+
+.sm_input {
+    width: 100px;
+
+    background-color: rgb(169,210,210);
+    padding: 15px;
+
+    border: none;
+    border-bottom: 1px solid black
+}
+
+input::placeholder {
+    font-size: 18px;
+    color: rgb(129,163,163);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    width: 370px;
+}

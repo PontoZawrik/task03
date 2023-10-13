@@ -1,0 +1,24 @@
+body {
+    width: 1280px;
+    font-family: Montserrat;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_wrapper a {
+    color: black;
+
+    font-size: 35px;
+    font-weight: bold;
+}
