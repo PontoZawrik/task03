@@ -27,5 +27,9 @@
 .content-wrapper {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 50px;
+}
+
+input::placeholder {
+    font-size: 18px;
 }

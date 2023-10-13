@@ -13,7 +13,7 @@
     gap: 20px;
 }
 
-.input {
+.input-1 {
     width: 532px;
 
     padding: 10px;
@@ -32,8 +32,4 @@
     align-items: flex-end;
     flex-wrap: wrap;
     gap: 25px;
-}
-
-input::placeholder {
-    font-size: 18px;
 }

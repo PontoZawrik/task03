@@ -20,37 +20,57 @@
     <form class="form" action="#" method="post">
         <div class="container">
             <div class="content-wrapper">
+                <!--regist - секция для регистрации-->
                 <div class="regist">
+
+                    <!--title - заголовок секции-->
                     <h2 class="title">Registration form</h2>
 
+                    <!--input-img - картинка + поле для ввода-->
                     <label class="input-img">
                         <img src="/task03/img/username.png" alt="">
-                        <input class="input" type="text" placeholder="Username">
+                        <input class="input-1" type="text" placeholder="Username" name="username">
                     </label>
     
                     <label class="input-img">
                         <img src="/task03/img/email.png" alt="">
-                        <input class="input" type="email" placeholder="Emeil address">
+                        <input class="input-1" type="email" placeholder="Emeil address" name="email">
                     </label>
     
+                    <!--pswd-wrapper - оболочка для ввода паролей-->
                     <div class="pswd-wrapper">
                         <label class="input-img">
                             <img src="/task03/img/pswd.png" alt="">
-                            <input class="input pswd" type="password" placeholder="Password">
+                            <input class="input-1 pswd" type="password" placeholder="Password" name="pswd">
                         </label>
     
-                        <input class="input pswd" type="password" placeholder="Confirm password">
+                        <input class="input-1 pswd" type="password" placeholder="Confirm password" name="confirm-pswd">
                     </div>
                 </div>
     
+                <!--секция для ввода персональных данных-->
                 <div class="personal-detal">
                     <h2 class="title">Personal details</h2>
-                </div>
-    
-                <div class="rules">
-    
+
+                    <div class="input-wrapper">
+                        <input class="input-2" type="text" placeholder="First name" name="first-name">
+                        <input class="input-2" type="text" placeholder="Last name" name="last-name">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <select class="input-2" name="male">
+                            <option>Male</option>
+                        </select>
+
+                        <input class="input-2" type="date" name="date">
+                    </div>
                 </div>
             </div>
+
+            <div class="rules">
+    
+            </div>
+            
         </div>
 
     </form>
