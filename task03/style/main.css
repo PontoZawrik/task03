@@ -1,0 +1,31 @@
+@import url(regist.css);
+@import url(personal-detal.css);
+@import url(rules.css);
+
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_wrapper a {
+    color: black;
+
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.form {
+    margin-top: 50px;
+    padding: 40px 15px 40px 15px;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}

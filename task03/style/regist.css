@@ -1,0 +1,39 @@
+.regist {
+    max-width: 600px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.input-img {
+    display: flex;
+    align-items: flex-end;
+
+    gap: 20px;
+}
+
+.input {
+    width: 532px;
+
+    padding: 10px;
+    font-size: 18px;
+
+    border: none;
+    border-bottom: 1px solid black
+}
+
+.pswd {
+    width: 253.5px;
+}
+
+.pswd-wrapper {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+input::placeholder {
+    font-size: 18px;
+}
